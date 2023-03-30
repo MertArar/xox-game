@@ -1,9 +1,17 @@
-*{
+* {
   box-sizing: border-box;
+}
+
+:root {
+  --x-color: #ff4625;
+  --o-color: #2c87ff;
+  --border-color: #888888;
+  --btn-color: #006eff;
+  --bg-color: #efefef;
 }
 
 body {
   margin: 0;
-  background-color: #efefef;
+  background-color: var(--bg-color);
   font-family: "Freedoka", sans-serif;
 }
